@@ -1,5 +1,4 @@
-<!-- wp:syntaxhighlighter/code {"language":"cpp"} -->
-<pre class="wp-block-syntaxhighlighter-code">#include "FastLED.h"
+#include "FastLED.h"
 #define NUM_LEDS 140
 #define LED_PIN 4
 #define COLOR_ORDER GRB
@@ -92,5 +91,4 @@ void loop() {
 
   Serial.println();
   FastLED.show();
-}</pre>
-<!-- /wp:syntaxhighlighter/code -->
+}
